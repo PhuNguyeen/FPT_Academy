@@ -1,7 +1,9 @@
 package com.phund17.exercise;
 
 /**
- * Name:Nguyen Duc Phu Date:11/01/2022 Lab 301
+ * Name:Nguyen Duc Phu 
+ * Date:11/01/2022 
+ * Lab 301
  */
 public class ArrayDemo {
 	public static void main(String[] args) {
