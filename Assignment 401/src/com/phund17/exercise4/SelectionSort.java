@@ -9,7 +9,8 @@ import java.util.Scanner;
  * Assignment 401
  */
 public class SelectionSort extends NumberList implements Sort {
-
+	
+	
 	public SelectionSort(int n) {
 		super(n);
 		// TODO Auto-generated constructor stub
@@ -17,11 +18,6 @@ public class SelectionSort extends NumberList implements Sort {
 
 	@Override
 	public void sort() {
-		// TODO Auto-generated method stub
-
-	}
-
-	public void sort(int arr[]) {
 		int n = arr.length;
 
 		for (int i = 0; i < n - 1; i++) {
@@ -50,7 +46,7 @@ public class SelectionSort extends NumberList implements Sort {
 		n = sc.nextInt();
 		SelectionSort ob = new SelectionSort(n);
 		ob.input(n);
-		ob.sort(arr);
+		ob.sort();
 		System.out.println("Sorted array");
 		ob.print();
 

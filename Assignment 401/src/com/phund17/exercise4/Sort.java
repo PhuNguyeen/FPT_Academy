@@ -6,4 +6,5 @@ package com.phund17.exercise4;
  */
 public interface Sort {
 	public void sort();
+	
 }

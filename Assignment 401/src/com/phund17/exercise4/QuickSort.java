@@ -16,8 +16,13 @@ public class QuickSort extends NumberList implements Sort {
 
 	@Override
 	public void sort() {
-		// TODO Auto-generated method stub
+		if (0 < arr.length - 1) {
 
+			int pi = partition(arr, 0, arr.length - 1);
+
+			sort(arr, 0, pi - 1);
+			sort(arr, pi + 1, arr.length - 1);
+		};
 	}
 
 	public int partition(int arr[], int low, int high) {
@@ -63,7 +68,7 @@ public class QuickSort extends NumberList implements Sort {
 		n = sc.nextInt();
 		QuickSort ob = new QuickSort(n);
 		ob.input(n);
-		ob.sort(arr, 0, n - 1);
+		ob.sort();
 
 		System.out.println("sorted array");
 		ob.print();

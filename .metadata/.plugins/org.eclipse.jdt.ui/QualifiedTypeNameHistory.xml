@@ -6,7 +6,21 @@
     <fullyQualifiedTypeName name="com.fsoft.phund17.exercise2.ArrayContains"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise4.Sort"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise4.InsertSort"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise1.Book"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise1.BookMgr"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise2.Employee"/>
+    <fullyQualifiedTypeName name="java.util.WeakHashMap"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise4.NumberList"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise3.SalePrice"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise3.Car"/>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise3.Ford"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise3.Truck"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise3.Sedan"/>
 </qualifiedTypeNameHistroy>

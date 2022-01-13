@@ -16,11 +16,6 @@ public class InsertSort extends NumberList implements Sort {
 
 	@Override
 	public void sort() {
-		// TODO Auto-generated method stub
-
-	}
-
-	public void sort(int arr[]) {
 		int n = arr.length;
 		for (int i = 1; i < n; ++i) {
 			int key = arr[i];
@@ -32,6 +27,7 @@ public class InsertSort extends NumberList implements Sort {
 			}
 			arr[j + 1] = key;
 		}
+
 	}
 
 	public void print() {
@@ -49,7 +45,7 @@ public class InsertSort extends NumberList implements Sort {
 		InsertSort ob = new InsertSort(n);
 		ob.input(n);
 
-		ob.sort(arr);
+		ob.sort();
 		System.out.println("Sorted array");
 		ob.print();
 
