@@ -13,6 +13,10 @@ public class MyOwnAutoShop {
 		ford.printFord();
 		System.out.println("Sale Price: " + ford.getSalePrice());
 		
+		Ford ford1 = new Ford(230, 30000, "Pink", 3000, 2018);
+		ford1.printFord();
+		System.out.println("Sale Price: " + ford1.getSalePrice());
+		
 		Truck truck = new Truck(150, 10000, "Gray", 2500);
 		truck.toString();
 		System.out.println("Sale Price: " + truck.getSalePrice());
