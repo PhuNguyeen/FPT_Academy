@@ -1,8 +1,8 @@
 /**
 * 
-*	author: KEN
+*	author: Nguyễn Đức Phú
 *	date   Jan 18, 2022
-*	Lab/Assignment
+*	Lab 605
 *
 */
 package fa.training.entities;

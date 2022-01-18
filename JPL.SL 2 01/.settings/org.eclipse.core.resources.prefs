@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/fa/training/entities/Actionable.java=UTF-8
+encoding//src/fa/training/entities/EnglishTeacher.java=UTF-8
+encoding//src/fa/training/entities/MathTeacher.java=UTF-8
 encoding//src/fa/training/management/TeacherManagement.java=UTF-8
