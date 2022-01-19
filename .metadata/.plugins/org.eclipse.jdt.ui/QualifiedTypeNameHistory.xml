@@ -2,12 +2,9 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="CircleExercise"/>
     <fullyQualifiedTypeName name="com.fsoft.phund17.RectangleExercise"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="com.fsoft.phund17.exercise2.ArrayContains"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.phund17.exercise4.Sort"/>
     <fullyQualifiedTypeName name="com.phund17.exercise4.InsertSort"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -23,4 +20,14 @@
     <fullyQualifiedTypeName name="com.phund17.exercise3.Ford"/>
     <fullyQualifiedTypeName name="com.phund17.exercise3.Truck"/>
     <fullyQualifiedTypeName name="com.phund17.exercise3.Sedan"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.PhuND17.Exercise1.Shape"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.PhuND17.Exercise1.ChuNhat"/>
+    <fullyQualifiedTypeName name="com.PhuND17.Exercise1.Tron"/>
+    <fullyQualifiedTypeName name="com.PhuND17.Exercise1.TamGiac"/>
+    <fullyQualifiedTypeName name="com.PhuND17.Exercise2.Person"/>
+    <fullyQualifiedTypeName name="com.PhuND17.Exercise2.Wallet"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
