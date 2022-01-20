@@ -24,22 +24,28 @@ public class Main {
 			System.out.println("1.Normal Calculator");
 			System.out.println("2.BMI Calculator");
 			System.out.println("3.Exit ");
-			System.out.print("Please choice onr option: ");
+
+			System.out.print("Please choice one option: ");
 			String strOption = sc.next();
-			option = Integer.parseInt(strOption);
-			switch (option) {
-			case 1: {
-				calculatorNormal();
-				break;
+			try {
+				option = Integer.parseInt(strOption);
+				switch (option) {
+				case 1: {
+					calculatorNormal();
+					break;
+				}
+				case 2: {
+					calBMI();
+					break;
+				}
+				case 3:
+					System.exit(option);
+					break;
+				}
+			} catch (Exception e) {
+				System.err.println("Please enter option number in menu! ");
 			}
-			case 2: {
-				calBMI();
-				break;
-			}
-			case 3:
-				System.exit(option);
-				break;
-			}
+			
 		}
 
 	}
@@ -131,7 +137,6 @@ public class Main {
 			System.out.println("BMI is digit.");
 		}
 		return rs;
-
 	}
 
 	public static Operator convertStringToOperator(String input) {
