@@ -11,13 +11,15 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class ManageEastAsiaCountries extends EastAsiaCountries {
+public class ManageEastAsiaCountries{
 
-	EastAsiaCountries asiaCountries = null;
+	EastAsiaCountries asiaCountries = new EastAsiaCountries();
 	Scanner sc = new Scanner(System.in);
-	public ArrayList<EastAsiaCountries> list = new ArrayList<EastAsiaCountries>();
-
+	
+	ArrayList<EastAsiaCountries> list = new ArrayList<EastAsiaCountries>();
+	
 	public void menu() {
+		
 		System.out.println("               					Menu  			    	           ");
 		System.out.println("===================================================================");
 		System.out.println("1. Input the information of 11 countries in East Asia");
@@ -59,7 +61,7 @@ public class ManageEastAsiaCountries extends EastAsiaCountries {
 	}
 
 	public void addCountryInformation(EastAsiaCountries country) throws Exception {
-		for (int i = 1; i <= 11; i++) {
+		for (int i = 1; i <= 3; i++) {
 			System.out.println("Enter code of country " + i + " : ");
 			String countryCode = sc.next();
 			System.out.println("Enter name of country " + i + " : ");
@@ -89,12 +91,15 @@ public class ManageEastAsiaCountries extends EastAsiaCountries {
 
 	public EastAsiaCountries[] searchInformationByName(String name) throws Exception {
 		System.out.format("%10s%15s%15s%15s", "ID", "Name", "Total Area", "Terrain");
-		for (EastAsiaCountries a : list) {
-			if (a.getCountryName().equals(name)) {
-				a.display();
+		EastAsiaCountries[] eastAsiaCountries = new EastAsiaCountries[list.size()];
+		int index=0 ;
+		for (EastAsiaCountries country : list) {
+			if (country.getCountryName().equals(name)) {
+				eastAsiaCountries[index] = country;
+				country.display();
 			}
 		}
-		return null;
+		return eastAsiaCountries;
 	}
 
 	public EastAsiaCountries[] sortInformationByAscendingOrder() throws Exception {
