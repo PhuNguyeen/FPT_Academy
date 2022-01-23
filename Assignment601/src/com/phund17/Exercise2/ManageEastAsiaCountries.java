@@ -63,14 +63,14 @@ public class ManageEastAsiaCountries{
 	public void addCountryInformation(EastAsiaCountries country) throws Exception {
 		for (int i = 1; i <= 3; i++) {
 			System.out.println("Enter code of country " + i + " : ");
-			String countryCode = sc.next();
+			country.countryCode = sc.next();
 			System.out.println("Enter name of country " + i + " : ");
 			String countryName = sc.next();
 			System.out.println("Enter total Area " + i + " : ");
 			float totalArea = sc.nextFloat();
 			System.out.println("Enter terrain of country " + i + " : ");
 			String countryTerrain = sc.next();
-			list.add(new EastAsiaCountries(countryCode, countryName, totalArea, countryTerrain));
+			list.add(new EastAsiaCountries(country.countryCode, countryName, totalArea, countryTerrain));
 		}
 
 	}

@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="com.phund17.exercise1.Book"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.phund17.exercise1.BookMgr"/>
-    <fullyQualifiedTypeName name="com.phund17.exercise2.Employee"/>
     <fullyQualifiedTypeName name="java.util.WeakHashMap"/>
     <fullyQualifiedTypeName name="com.phund17.exercise4.NumberList"/>
     <fullyQualifiedTypeName name="com.phund17.exercise3.SalePrice"/>
@@ -45,4 +44,9 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.phund17.exercise1.CheckVal"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise2.Payable"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise2.Department"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise2.Employee"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise2.SalariedEmployee"/>
 </qualifiedTypeNameHistroy>
