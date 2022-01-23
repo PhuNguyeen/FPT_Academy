@@ -133,7 +133,7 @@ public class CourseService {
 
 		Collections.sort(courses, new CourseTitleCompare());
 
-		System.out.println("---------------COURSE LIST-------------------");
+		System.out.println("---------------COURSE LIST------------------");
 
 		for (Course course : courses) {
 			System.out.format("%s%20s%12.3f%5d%100s%n", course.getId(), course.getTitle(), course.getCredit(),

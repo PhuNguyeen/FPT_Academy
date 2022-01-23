@@ -26,19 +26,23 @@
     <fullyQualifiedTypeName name="com.PhuND17.Exercise1.TamGiac"/>
     <fullyQualifiedTypeName name="com.PhuND17.Exercise2.Person"/>
     <fullyQualifiedTypeName name="com.PhuND17.Exercise2.Wallet"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="fa.training.stringdemo.StringImmutableExample"/>
     <fullyQualifiedTypeName name="fa.training.stringdemo.StringMethodExample"/>
     <fullyQualifiedTypeName name="fa.training.stringdemo.StringCountNumberOfWord"/>
     <fullyQualifiedTypeName name="fa.training.stringbuilderdemo.StringBuilderExample"/>
     <fullyQualifiedTypeName name="fa.training.stringbufferdemo.StringBufferExample"/>
-    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="com.phund17.Exercise2.Country"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.awt.Menu"/>
     <fullyQualifiedTypeName name="com.phund17.Exercise2.EastAsiaCountries"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.phund17.exercise1.CheckVal"/>
 </qualifiedTypeNameHistroy>
